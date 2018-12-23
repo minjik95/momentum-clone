@@ -1,0 +1,28 @@
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center .js-greetingsForm {
+  background: none;
+  appearance: none;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.center .js-greetingsForm::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.center .js-greetingsForm:focus,
+.center .js-greetingsForm:active {
+  outline: none;
+}
+
+.center .js-greetings {
+  font-size: 48px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,7 @@
+.location {
+  opacity: 0.7;
+  font-style: italic;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
